@@ -2,17 +2,26 @@
 .text-size {
     font-size: 65px;
 }
-.name{
+
+.name {
     font-weight: 600;
 }
+
+.icon-color {
+    color: gold;
+}
+
+/* media query in css */
 @media screen and (max-width: 576px) {
     .text-size {
-        font-size: 22px;
+        font-size: 20px;
     }
-    .course-img > img{
+
+    .course-img>img {
         width: 100%;
     }
-    .align-text{
+
+    .align-text {
         text-align: center;
     }
 
@@ -30,8 +39,3 @@
         font-size: 30px;
     }
 }
-
-/* margin-top */
-/* .mg-top{
-    margin-top: -110px;
-} */
