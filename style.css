@@ -1,21 +1,24 @@
 /* header text size */
-.text-size{
+.text-size {
     font-size: 65px;
 }
 
 @media screen and (max-width: 576px) {
-    .text-size{
+    .text-size {
         font-size: 22px;
     }
-    .d-n{
+
+    .d-n {
         display: none;
     }
-    .p-text{
+
+    .p-text {
         font-size: 10px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .text-size{
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .text-size {
         font-size: 30px;
     }
 }
