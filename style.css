@@ -2,10 +2,15 @@
 .text-size {
     font-size: 65px;
 }
-
+.name{
+    font-weight: 600;
+}
 @media screen and (max-width: 576px) {
     .text-size {
         font-size: 22px;
+    }
+    .align-text{
+        text-align: center;
     }
 
     .d-n {
