@@ -2,7 +2,25 @@
 .text-size{
     font-size: 65px;
 }
-/* margin-top */
-.mg-top{
-    margin-top: -110px;
+
+@media screen and (max-width: 576px) {
+    .text-size{
+        font-size: 22px;
+    }
+    .d-n{
+        display: none;
+    }
+    .p-text{
+        font-size: 10px;
+    }
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .text-size{
+        font-size: 30px;
+    }
+}
+
+/* margin-top */
+/* .mg-top{
+    margin-top: -110px;
+} */
