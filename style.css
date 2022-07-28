@@ -9,6 +9,9 @@
     .text-size {
         font-size: 22px;
     }
+    .course-img > img{
+        width: 100%;
+    }
     .align-text{
         text-align: center;
     }
